@@ -12,6 +12,7 @@ body {
     font-family: 'Akaya Kanadaka', cursive;
 font-family: 'Big Shoulders Stencil Display', cursive;
 font-family: 'Oswald', sans-serif;
+margin: 0px;
 }
 
 hr{
@@ -33,6 +34,7 @@ hr{
  .link{
      text-decoration: none;
      padding: 0.5rem 1rem;
+   
  }
 
  .link-primary{
@@ -50,20 +52,20 @@ hr{
  /** list**/
 
 .list-non-bullet{
-    list-style: none;
+   list-style: none;
     
  }
 
  .list-inline-item{
-    display: inline;
-    padding: 0rem 0.5rem;
+   display: inline;
+   padding: 0rem 0.5rem;
  }
 
 
  /** text size**/
   
  .textp{
-    font-size: 1.2rem;
+   font-size: 1.2rem;
  }
 
  /** navigation **/
@@ -72,7 +74,7 @@ hr{
  .navigation{
     background-color: var(--primary-color);
     color:white;
-    border-radius: 0.5rem;
+    border-bottom-left-radius: 1rem;
     padding: 1rem;
  }
 
@@ -134,9 +136,17 @@ hr{
      padding: 2rem 1rem;
      text-align: center;
      color:white;
-     border-radius: 1rem;
+     border-top-left-radius: 1rem;
+     
  }
 
  .footer .link{
      color:white;
+     padding-inline-start: 0px;
+ }
+
+ .footer .footer-header{
+font-weight: bold;
+font-size: large;
+
  }
