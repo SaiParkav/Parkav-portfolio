@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Big+Shoulders+Stencil+Display:wght@300&family=Oswald:wght@300&display=swap');
+
+
+:root{
+    --primary-color: #3B82F6;
+    --dark-grey: #4B5563;
+    --sky-blue: #BFDBFE;
+}
+
+
+body {
+    font-family: 'Akaya Kanadaka', cursive;
+font-family: 'Big Shoulders Stencil Display', cursive;
+font-family: 'Oswald', sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/** containers**/
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+/** links**/
+ .link{
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+ }
+
+ .link-primary{
+        background-color: var(--primary-color);
+        border-radius: 0.5rem;
+        color:white;
+ }
+
+ .link-secondary{
+    color: var(--primaty-color);
+     border-radius: 0.5rem;
+     border: 1px solid var(--primary-color);
+ }
+
+ /** list**/
+
+.list-non-bullet{
+    list-style: none;
+    
+ }
+
+ .list-inline-item{
+    display: inline;
+    padding: 0rem 0.5rem;
+ }
+
+
+ /** text size**/
+  
+ .textp{
+    font-size: 1.2rem;
+ }
+
+ /** navigation **/
+
+
+ .navigation{
+    background-color: var(--primary-color);
+    color:white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+ }
+
+ .navigation .link{
+    color:white;
+ }
+
+ .navigation .nav-brand{
+    font-weight: bold;
+ }
+
+ .navigation .nav-pills{
+    text-align: right;
+ }
+
+ .navigation .link-active{
+    font-weight: bold;
+ }
+
+ /**headder**/
+
+ .hero{
+    padding: 2rem;
+ }
+
+ .hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+ }
+
+ .hero .hero-heading
+ {
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    text-align: center;
+ }
+
+ /**section**/
+
+ .section{
+    padding: 2rem;
+ }
+  
+ .ow{
+    background-color: var(--sky-blue);
+    border-radius: 1rem;
+
+ }
+
+ .section h1{
+    text-align: center;
+ }
+
+ /** footers**/
+
+ .footer{
+     background-color: var(--primary-color);
+     padding: 2rem 1rem;
+     text-align: center;
+     color:white;
+     border-radius: 1rem;
+ }
+
+ .footer .link{
+     color:white;
+ }
