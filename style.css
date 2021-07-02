@@ -76,6 +76,7 @@ hr{
     color:white;
     border-bottom-left-radius: 1rem;
     padding: 1rem;
+    margin: auto;
  }
 
  .navigation .link{
