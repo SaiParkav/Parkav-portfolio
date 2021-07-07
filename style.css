@@ -47,6 +47,7 @@ hr{
     color: var(--primaty-color);
      border-radius: 0.5rem;
      border: 1px solid var(--primary-color);
+     background-color: white;
  }
 
  /** list**/
